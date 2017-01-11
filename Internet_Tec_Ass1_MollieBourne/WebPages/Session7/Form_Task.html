@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> Student Survey </title>
+</head>
+<body>
+    <h1> Student Survey </h1>
+    <form>    
+        <label >Name*: </label>
+		<input type="text"><!-- 1) Create a input of type text called name --> <br>    
+        <br> <label >Email*: </label>
+		<input type="text>"<!-- 2) Create a input of type email called email --><br>
+        <br><label >Number*:</label>
+		<input type="text"><!-- 3) Create a input of type number called number --><br>    
+        
+ 
+        <br><label>What year are you in*: </label>   
+			<select name="What Year Are You In?">
+			<option value="1"> Year 1</option>
+			<option value="2"> Year 2</option>
+			<option value="3"> Year 3</option>
+			</select><br><!-- 4) Create a select box called year with the following option values and display text
+                   value=""  Select 
+                   value="1" Year 1
+                   value="2" Year 2
+                   value="3" Year 3
+        --><br>
+     
+        <label > Which electronic devices do you use? </label> <br> 
+			<input type="checkbox" name="what electronic devices do you use" value="Computer" checked="checked"> Computer<br>
+			<input type="checkbox" name="what electronic devices do you use" value="Ebook Reader"> Ebook Reader<br>
+			<input type="checkbox" name="what electronic devices do you use" value="Smart Phone"> Smart Phone<br>
+			<br>
+        <!-- 5) Create a checkbox box group called which_device with the following option values and display text
+                   value="computer"  Computer 
+                   value="ebook_reader" Ebook reader
+                   value="smart_phone"  Smart phone
+        -->      
+        
+        
+        <label >  How many hours a day do you spend using electronic devices? </label><br>
+			<input type="radio" name="How many hours a day do you spend using electronic devices?" value="1"> 1 Hours <br/>
+			<input type="radio" name="How many hours a day do you spend using electronic devices?" value="2"> 2 Hours <br/>
+			<input type="radio" name="How many hours a day do you spend using electronic devices?" value="3"> 3 Hours <br/>
+			<!-- 6) Create radio box group called hours with the following option values and display text
+                   value="1"  1 hours
+                   value="2"  2 Hours
+                   value="3"  3 Hours +
+        -->         
+    
+        
+        <br><label> Any other comments </label> <br>
+			<textarea name="Comments" rows="5" cols="25"></textarea> 
+			
+			<br> 
+        
+        
+       
+        <!-- 7) Create a text area with 25 rows and 25 cols called comments -->
+            
+        <!-- 8) Make sure that all the inputs with a label that has a * in are validated as "required" -->    
+    
+     
+        
+
+        <input type="submit" name="Submit" value="Submit">
+    </form>
+    </body>
+</html>
